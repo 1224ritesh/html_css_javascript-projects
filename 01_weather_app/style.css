@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #f7f7f7;
+    background-color: #e6c4ef;
   }
   
   .container {
@@ -25,13 +25,14 @@ body {
   form input[type="text"] {
     padding: 10px;
     border: none;
+    border-radius: 5px;
     outline: none;
     font-size: 18px;
     width: 60%;
   }
   
   form input[type="submit"] {
-    background-color: #007bff;
+    background-color: #945bc6;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -39,11 +40,11 @@ body {
     font-size: 18px;
     cursor: pointer;
     outline: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
   }
   
   form input[type="submit"]:hover {
-    background-color: #0062cc;
+    background-color: #8800ff;
   }
   
   .icon img {
